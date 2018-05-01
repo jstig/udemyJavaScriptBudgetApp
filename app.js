@@ -1,4 +1,4 @@
-///////////////////////////////////////////////
+////////////////////////////////////////////////
 //Module 1: BUDGET CONTROLLER. Create IIFE to keep data safe. Independent.
 let budgetController = (function() {
     //creating a constructor for expenses. this.id = id; means that the value passed in as the id parameter is the value for this.id.
@@ -356,7 +356,7 @@ let UIController = (function() {
                     ',' +
                     DOMStrings.inputValue
             );
-            
+
             nodeListForEach(fields, function(cur) {
                 cur.classList.toggle('red-focus');
             });
